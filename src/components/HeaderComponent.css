@@ -1,0 +1,24 @@
+.app-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 18px;
+  background: linear-gradient(90deg,#0b5cff 0%, #0066ff 100%);
+  color: white;
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(6,18,44,0.12);
+}
+.app-header nav a {
+  color: rgba(255,255,255,0.95);
+  margin-left: 14px;
+  text-decoration: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+}
+.app-header nav a:hover {
+  background: rgba(255,255,255,0.06);
+}
+.app-header nav a.active {
+  background: rgba(255,255,255,0.12);
+  text-decoration: none;
+}
